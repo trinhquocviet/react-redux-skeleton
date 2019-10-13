@@ -1,0 +1,75 @@
+// Bootstrap overrides
+// 
+// Color system
+$white:                     #fff;
+$gray-100:                  #f8f9fa;
+$gray-200:                  #e9ecef;
+$gray-300:                  #dee2e6;
+$gray-400:                  #ced4da;
+$gray-500:                  #adb5bd;
+$gray-600:                  #6c757d;
+$gray-700:                  #495057;
+$gray-800:                  #343a40;
+$gray-900:                  #212529;
+$black:                     #000000;
+
+// simple color name
+$blue:                      #007bff;
+$indigo:                    #6610f2;
+$purple:                    #6f42c1;
+$pink:                      #e83e8c;
+$red:                       #dc3545;
+$orange:                    #fd7e14;
+$yellow:                    #ffc107;
+$green:                     #28a745;
+$teal:                      #20c997;
+$cyan:                      #17a2b8;
+
+
+$colors: (
+);
+
+$theme-colors: (
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret:                                true;
+$enable-rounded:                              true;
+$enable-shadows:                              false;
+$enable-gradients:                            false;
+$enable-transitions:                          true;
+$enable-prefers-reduced-motion-media-query:   true;
+$enable-hover-media-query:                    false; // Deprecated, no longer affects any compiled CSS
+$enable-grid-classes:                         true;
+$enable-pointer-cursor-for-buttons:           true;
+$enable-print-styles:                         true;
+$enable-responsive-font-sizes:                true;
+$enable-validation-icons:                     true;
+$enable-deprecation-messages:                 true;
+
+// Fonts
+$font-family-opensans:                        'Open Sans', sans-serif, monospace;
+$font-family-arial:                           'Arial', sans-serif, monospace;
+$font-family-base:                            $font-family-arial;
+
+// Z-index master list
+$zindex-dropdown:                             1000;
+$zindex-sticky:                               1020;
+$zindex-fixed:                                1030;
+$zindex-notification:                         1039;
+$zindex-modal-backdrop:                       1040;
+$zindex-modal:                                1050;
+$zindex-popover:                              1060;
+$zindex-tooltip:                              1070;
+$zindex-loading:                              1080;

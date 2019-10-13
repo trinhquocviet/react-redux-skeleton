@@ -1,0 +1,9 @@
+# Browsers that we support
+[production]
+>0.2%
+not dead
+not op_mini all
+IE >= 10
+
+[development]
+IE >= 10
