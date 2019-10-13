@@ -1,4 +1,4 @@
-# PAL SD
+# Introduction
 
 generates by [create-react-app 3.2.0](https://github.com/facebook/create-react-app), please read this before working on this project.
 
